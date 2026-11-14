@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>글로벌ESG인증원</title>
+<meta name="description" id="mdesc" content="ESG를 말하다, 미래를 그리다. 글로벌ESG인증원은 일반기업과 사회연대경제기업의 ESG 경영 진단, 공급망 실사, 지속가능경영보고서, 탄소배출평가, ISO 인증, 교육을 지원합니다.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="글로벌ESG인증원">
+<meta property="og:title" id="ogt" content="글로벌ESG인증원 | ESG를 말하다, 미래를 그리다">
+<meta property="og:description" id="ogd" content="일반기업과 사회연대경제기업을 위한 ESG 경영 진단, 공급망 실사, 지속가능경영보고서, 탄소배출평가, ISO 인증 컨설팅과 교육.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#1E3D26">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "글로벌ESG인증원", "alternateName": "글로벌이에스지인증원 주식회사", "url": "https://geci.kr/", "telephone": "1599-9895", "address": {"@type": "PostalAddress", "streetAddress": "오리로 362, 4층", "addressLocality": "광명시", "addressRegion": "경기도", "postalCode": "14327", "addressCountry": "KR"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+/* 레이아웃: 상단 고정 헤더(전화번호 상시 노출) + 슬로건 히어로 + 카드·타임라인 중심 본문 */
+:root{
+  --green:#1E3D26;
+  --lime:#8FBC6F;
+  --cream:#F7F7F0;
+  --ink:#1c2420;
+  --muted:#5d6a61;
+  --line:#dfe3d6;
+  --white:#ffffff;
+  --ko:'Poppins','Noto Sans KR',system-ui,sans-serif;
+  --en:'Poppins','Noto Sans KR',sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--ko);background:var(--cream);color:var(--ink);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img,svg{max-width:100%}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--lime);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.en{font-family:var(--en)}
+h1,h2,h3{text-wrap:balance;line-height:1.35;word-break:keep-all}
+p{word-break:keep-all}
+
+/* 상단 유틸 바 */
+.util{background:var(--green);color:#dfe9d6;font-size:13px}
+.util .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:38px;flex-wrap:wrap}
+.util a{color:#fff}
+.util .tel{font-family:var(--en);font-weight:600;letter-spacing:.02em}
+.util .links{display:flex;gap:16px}
+
+/* 헤더 */
+header.site{position:sticky;top:0;z-index:50;background:rgba(247,247,240,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;min-height:72px;gap:20px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--green);font-size:19px;letter-spacing:-.02em}
+.logo .mark{width:34px;height:34px;border-radius:50% 50% 50% 8px;background:var(--green);display:grid;place-items:center}
+.logo .mark svg{width:20px;height:20px}
+.logo small{display:block;font-family:var(--en);font-weight:500;font-size:10px;letter-spacing:.14em;color:var(--muted);margin-top:-3px}
+nav.gnb{display:flex;gap:4px}
+nav.gnb .item{position:relative}
+nav.gnb .top{display:block;padding:24px 16px;font-family:var(--en);font-weight:600;font-size:14px;letter-spacing:.06em;color:var(--green)}
+nav.gnb .top:hover,nav.gnb .top.on{color:#4d7f35}
+nav.gnb .sub{position:absolute;left:50%;top:100%;transform:translateX(-50%);min-width:190px;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:8px;box-shadow:0 12px 30px rgba(30,61,38,.12);display:none}
+nav.gnb .item:hover .sub,nav.gnb .item:focus-within .sub{display:block}
+nav.gnb .sub a{display:block;padding:9px 14px;font-size:14px;border-radius:6px;white-space:nowrap}
+nav.gnb .sub a:hover{background:var(--cream);color:var(--green)}
+.cta-sm{background:var(--green);color:#fff;border-radius:999px;padding:10px 20px;font-size:14px;font-weight:700;white-space:nowrap}
+.cta-sm:hover{background:#2b5736}
+.burger{display:none;background:none;border:1px solid var(--line);border-radius:8px;width:44px;height:44px;font-size:20px;color:var(--green)}
+
+/* 히어로 */
+.hero{background:var(--green);color:#fff;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-120px;top:-140px;width:520px;height:520px;border-radius:50%;border:1px solid rgba(143,188,111,.35)}
+.hero::after{content:"";position:absolute;right:40px;top:60px;width:300px;height:300px;border-radius:50%;border:1px solid rgba(143,188,111,.25)}
+.hero .wrap{padding-top:72px;padding-bottom:72px;position:relative;z-index:1}
+.eyebrow{font-family:var(--en);font-size:13px;letter-spacing:.22em;color:var(--lime);font-weight:600}
+.hero h1{font-size:clamp(32px,5.4vw,60px);font-weight:900;letter-spacing:-.03em;margin:14px 0 8px}
+.hero h1 em{font-style:normal;color:var(--lime)}
+.hero .en-slogan{font-family:var(--en);font-size:clamp(14px,1.8vw,19px);color:#c9dcbc;letter-spacing:.04em;font-weight:400}
+.hero p.lead{max-width:560px;margin-top:22px;color:#e4ecdc;font-size:17px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;border-radius:999px;font-weight:700;font-size:15px;border:2px solid transparent}
+.btn.lime{background:var(--lime);color:var(--green)}
+.btn.lime:hover{background:#a3cc86}
+.btn.line{border-color:rgba(255,255,255,.55);color:#fff}
+.btn.line:hover{background:rgba(255,255,255,.1)}
+.btn.dark{background:var(--green);color:#fff}
+.btn.dark:hover{background:#2b5736}
+
+/* 고객사 띠 */
+.clients{background:var(--white);border-bottom:1px solid var(--line)}
+.clients .wrap{display:flex;align-items:center;gap:24px;padding-top:18px;padding-bottom:18px;flex-wrap:wrap}
+.clients .lab{font-family:var(--en);font-size:12px;letter-spacing:.16em;color:var(--muted);font-weight:600;white-space:nowrap}
+.clients .row{display:flex;gap:12px;flex-wrap:wrap;flex:1}
+.chip{border:1px dashed #b9c4ad;border-radius:8px;padding:8px 18px;font-size:13px;color:var(--muted);background:var(--cream)}
+
+section.blk{padding:72px 0}
+section.blk.alt{background:var(--white)}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:34px;flex-wrap:wrap}
+.sec-head .t small{font-family:var(--en);letter-spacing:.2em;font-size:12px;color:#4d7f35;font-weight:600;display:block;margin-bottom:6px}
+.sec-head h2{font-size:clamp(24px,3.2vw,34px);font-weight:900;color:var(--green);letter-spacing:-.02em}
+.more{font-size:14px;font-weight:700;color:var(--green);border-bottom:2px solid var(--lime)}
+
+/* 수치 */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:26px 22px}
+.stat .n{font-family:var(--en);font-size:34px;font-weight:700;color:var(--green);font-variant-numeric:tabular-nums}
+.stat .n.ph{font-size:22px;color:#9aa89d}
+.stat .l{font-size:14px;color:var(--muted);margin-top:4px}
+.note{font-size:13px;color:var(--muted);margin-top:14px}
+
+/* 카드 */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:26px 22px;display:flex;flex-direction:column;gap:10px;transition:.2s}
+a.card:hover{border-color:var(--lime);transform:translateY(-3px);box-shadow:0 10px 24px rgba(30,61,38,.09)}
+.card .no{font-family:var(--en);font-weight:600;font-size:13px;color:var(--lime);letter-spacing:.1em}
+.card h3{font-size:19px;color:var(--green)}
+.card p{font-size:14.5px;color:var(--muted)}
+.card .go{margin-top:auto;font-size:13px;font-weight:700;color:var(--green)}
+.alt .card{background:var(--cream)}
+
+/* 사이드 2열 */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.panel{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:26px}
+.list li{list-style:none;display:flex;gap:14px;padding:13px 0;border-bottom:1px solid var(--line);font-size:15px}
+.list li:last-child{border:0}
+.list .d{font-family:var(--en);font-size:13px;color:var(--muted);min-width:82px;font-variant-numeric:tabular-nums}
+.tag{display:inline-block;font-size:11px;font-weight:700;background:var(--lime);color:var(--green);border-radius:4px;padding:1px 7px;margin-right:6px;vertical-align:1px}
+
+/* 문의 배너 */
+.banner{background:var(--green);color:#fff;border-radius:20px;padding:44px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.banner h2{font-size:clamp(22px,3vw,30px);font-weight:900}
+.banner p{color:#cfe0c4;margin-top:6px}
+.banner .tel{font-family:var(--en);font-size:30px;font-weight:700;color:var(--lime);display:block;margin-bottom:10px}
+
+/* 서브 페이지 */
+.subhero{background:var(--green);color:#fff;padding:52px 0 44px}
+.subhero .crumb{font-size:13px;color:#b9d0ab;font-family:var(--en)}
+.subhero h1{font-size:clamp(28px,4vw,40px);font-weight:900;margin-top:8px;letter-spacing:-.02em}
+.subhero p{color:#d3e2c8;margin-top:8px;max-width:620px}
+.subwrap{display:grid;grid-template-columns:220px 1fr;gap:40px;padding:48px 20px 80px;align-items:start}
+.side{position:sticky;top:96px;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:10px}
+.side h4{font-family:var(--en);font-size:12px;letter-spacing:.18em;color:#4d7f35;padding:12px 14px 6px}
+.side a{display:block;padding:10px 14px;border-radius:8px;font-size:15px}
+.side a:hover{background:var(--cream)}
+.side a.on{background:var(--green);color:#fff;font-weight:700}
+.content h2{font-size:26px;color:var(--green);font-weight:900;margin:34px 0 14px}
+.content h2:first-child{margin-top:0}
+.content h3{font-size:18px;color:var(--green);margin:22px 0 8px}
+.content p{margin-bottom:14px;max-width:70ch}
+.content .cards{margin:18px 0 8px}
+.ph-box{border:1.5px dashed #b9c4ad;border-radius:12px;padding:20px 22px;background:var(--white);color:var(--muted);font-size:14.5px;margin:16px 0}
+.ph-box b{color:var(--green)}
+.checks li{list-style:none;padding:10px 0 10px 30px;position:relative;border-bottom:1px solid var(--line)}
+.checks li::before{content:"";position:absolute;left:4px;top:18px;width:12px;height:7px;border-left:3px solid var(--lime);border-bottom:3px solid var(--lime);transform:rotate(-45deg)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;counter-reset:s;margin:18px 0}
+.steps div{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:18px 16px;font-size:14.5px;counter-increment:s;position:relative}
+.steps div::before{content:"0" counter(s);font-family:var(--en);font-weight:700;color:var(--lime);display:block;font-size:20px}
+.steps b{display:block;color:var(--green)}
+
+/* 타임라인 */
+.tl{position:relative;margin:10px 0 0;padding-left:34px}
+.tl::before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.tl .ev{position:relative;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:14px}
+.tl .ev::before{content:"";position:absolute;left:-33px;top:22px;width:14px;height:14px;border-radius:50%;background:var(--lime);border:3px solid var(--cream)}
+.tl .y{font-family:var(--en);font-weight:700;color:var(--green);font-size:17px}
+.tl .ev p{margin:2px 0 0;font-size:14.5px;color:var(--muted)}
+
+/* 표 · 폼 */
+.tbl{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:14.5px}
+.tbl th,.tbl td{padding:13px 16px;border-bottom:1px solid var(--line);text-align:left}
+.tbl th{background:#eef2e6;color:var(--green);font-weight:700;white-space:nowrap}
+.scroll{overflow-x:auto}
+form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-size:14px;font-weight:700;color:var(--green);margin:14px 0 6px}
+input,select,textarea{width:100%;font:inherit;padding:12px 14px;border:1px solid #c8d0bd;border-radius:10px;background:var(--white);color:var(--ink)}
+textarea{min-height:130px;resize:vertical}
+.agree{display:flex;gap:10px;align-items:flex-start;margin:16px 0;font-size:14px;color:var(--muted)}
+.agree input{width:auto;margin-top:5px}
+.toast{display:none;margin-top:14px;padding:14px 18px;background:#e7f1de;border:1px solid var(--lime);border-radius:10px;color:var(--green);font-weight:700}
+
+/* 푸터 */
+footer.site{background:#142a1a;color:#b8c8b4;padding:48px 0 30px;font-size:14px}
+footer.site .cols{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+footer.site .tel{font-family:var(--en);font-size:26px;font-weight:700;color:var(--lime)}
+footer.site .logo{color:#fff}
+footer.site address{font-style:normal;line-height:1.9;margin-top:14px}
+footer.site .fl{display:flex;gap:18px;flex-wrap:wrap;margin-top:6px}
+footer.site .fl a:hover{color:#fff}
+footer.site .copy{border-top:1px solid #29422f;margin-top:28px;padding-top:18px;font-size:12.5px;color:#8ea58a}
+
+/* 고객사 흐르는 띠 */
+.marq{overflow:hidden;flex:1;min-width:0;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.marq .track{display:flex;gap:12px;width:max-content;animation:flow 28s linear infinite}
+.marq:hover .track{animation-play-state:paused}
+@keyframes flow{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.marq .track{animation:none;flex-wrap:wrap;width:auto}}
+.hero .en-slogan{font-size:clamp(18px,2.6vw,28px);font-weight:600;color:var(--lime)}
+
+/* 최근 문의 */
+.inq{list-style:none}
+.inq li{display:flex;gap:14px;align-items:center;padding:14px 4px;border-bottom:1px solid var(--line);font-size:15px}
+.inq li:last-child{border:0}
+.inq .st{font-size:12px;font-weight:700;border-radius:999px;padding:2px 10px;background:#e7f1de;color:var(--green);white-space:nowrap}
+.inq .st.w{background:#f3ecd6;color:#7a5a12}
+.inq .d{margin-left:auto;font-family:var(--en);font-size:13px;color:var(--muted);white-space:nowrap}
+
+/* 오른쪽 따라다니는 버튼 */
+.float{position:fixed;right:18px;bottom:28px;z-index:55;display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+.float a{display:flex;align-items:center;gap:8px;border-radius:999px;padding:12px 20px;font-weight:700;font-size:14px;box-shadow:0 8px 22px rgba(30,61,38,.22)}
+.float .a1{background:var(--lime);color:var(--green)}
+.float .a2{background:var(--green);color:#fff}
+.float{transition:opacity .25s}.float.off{opacity:0;pointer-events:none}
+.float a:hover{transform:translateY(-2px)}
+
+/* ISO 분야 묶음 */
+.iso{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:16px 0}
+.iso .g{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:20px}
+.iso .g h3{margin:0 0 10px;font-size:16px}
+.iso .g span{display:inline-block;font-family:var(--en);font-size:13px;background:var(--cream);border:1px solid var(--line);border-radius:6px;padding:3px 10px;margin:0 6px 6px 0}
+
+/* ===== 메인 배너 (3장 슬라이드 + 키네틱 타이포) ===== */
+.hb{position:relative;height:clamp(600px,60vw,700px);overflow:hidden;background:#eaf6ff}
+.hb-slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .8s,visibility .8s}
+.hb-slide.on{opacity:1;visibility:visible}
+.hb-art{position:absolute;right:0;bottom:0;width:60%;height:100%;pointer-events:none}
+.hb-art svg{width:100%;height:100%}
+.hb-copy{position:relative;z-index:3;padding-top:72px}
+.hb-copy .eyebrow{display:block}
+.hb h1{font-size:clamp(36px,6vw,74px);font-weight:900;letter-spacing:-.04em;line-height:1.18;margin:14px 0 6px;max-width:640px}
+.hb h1 .ln{display:block;white-space:nowrap}
+.hb .ch{display:inline-block}
+.hb .sp{display:inline-block;width:.26em}
+.hb .brush{display:block;width:min(360px,70%);height:22px;margin:2px 0 6px;overflow:visible}
+.hb .brush path{fill:none;stroke-width:7;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:0}
+.hb .en-slogan{font-family:var(--en);font-weight:600;font-size:clamp(15px,2vw,22px);letter-spacing:.03em}
+.hb .lead{max-width:520px;margin-top:18px;font-size:17px}
+.hb .btns{margin-top:26px}
+.hb .bgword{position:absolute;left:-2%;bottom:-6%;font-family:var(--en);font-weight:700;font-size:clamp(180px,30vw,420px);line-height:.8;letter-spacing:-.04em;color:transparent;z-index:1;pointer-events:none;white-space:nowrap}
+
+/* 슬라이드 1: 하늘·지구·도시 (밝은 톤) */
+.s1{background:linear-gradient(180deg,#bfe3fb 0%,#e8f5ff 60%,#f4fbff 100%);color:#12331f}
+.s1 .eyebrow{color:#2a7d3b}
+.s1 .en-slogan{color:#1f6fd1}
+.s1 .lead{color:#2f4a3a}
+.s1 .ln:first-child .em .ch{color:#2f8f3a}
+.s1 .ln:last-child .em .ch{color:#1f6fd1}
+.s1 .brush path{stroke:#8FBC6F}
+/* 슬라이드 2: 나무 블록과 새싹 */
+.s2{background:linear-gradient(180deg,#cfe8fa 0%,#eef7fd 55%,#f7f7f0 100%);color:#1E3D26}
+.s2 .eyebrow{color:#4d7f35}
+.s2 .en-slogan{color:#2f6b35}
+.s2 .lead{color:#3a5a45}
+.s2 .em .ch{color:#3f8d2d}
+.s2 .brush path{stroke:#8FBC6F}
+.s2 .bgword{-webkit-text-stroke:2px rgba(30,61,38,.10)}
+/* 영상 슬라이드 */
+.hb-vid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% center;background:#1E3D26}
+.hb-scrim{position:absolute;inset:0;z-index:1;pointer-events:none}
+.s1 .hb-scrim{background:linear-gradient(90deg,rgba(255,255,255,.72) 0%,rgba(255,255,255,.4) 34%,rgba(255,255,255,0) 62%)}
+.s2 .hb-scrim{background:linear-gradient(90deg,rgba(14,50,24,.66) 0%,rgba(14,50,24,.3) 38%,rgba(14,50,24,0) 66%)}
+.s2{background:#2f6b35;color:#fff}
+.s2 .eyebrow{color:#d6f0b8}
+.s2 .en-slogan{color:#e6f6b0}
+.s2 .lead{color:#eef5e8}
+.s2 .em .ch{color:#f0ff7a}
+.s2 .brush path{stroke:#f0ff7a}
+/* 슬라이드 3: 초록 보케 (어두운 톤) */
+.s3{background:radial-gradient(120% 120% at 70% 30%,#6fae55 0%,#2f6b35 55%,#1E3D26 100%);color:#fff}
+.s3 .eyebrow{color:#d6f0b8}
+.s3 .en-slogan{color:#e6f6b0}
+.s3 .lead{color:#e4efdc}
+.s3 .em .ch{color:#f0ff7a}
+.s3 .brush path{stroke:#f0ff7a}
+.s3 .bgword{-webkit-text-stroke:2px rgba(255,255,255,.13)}
+.btn.line.dk{border-color:rgba(30,61,38,.35);color:var(--green)}
+.btn.line.dk:hover{background:rgba(30,61,38,.06)}
+
+/* 슬라이드 3 (밝은 영상) */
+.s3{background:#cfe8fa;color:#12331f}
+.s3 .hb-scrim{background:linear-gradient(90deg,rgba(255,255,255,.7) 0%,rgba(255,255,255,.4) 34%,rgba(255,255,255,0) 62%)}
+.s3 .eyebrow{color:#2a7d3b}
+.s3 .en-slogan{color:#1f6fd1}
+.s3 .lead{color:#2f4a3a}
+.s3 .ln:first-child .em .ch{color:#2f8f3a}
+.s3 .ln:last-child .em .ch{color:#1f6fd1}
+.s3 .brush path{stroke:#8FBC6F}
+@media(max-width:900px){.s3 .hb-scrim{background:linear-gradient(180deg,rgba(255,255,255,.78),rgba(255,255,255,.66) 60%,rgba(255,255,255,.3))}}
+/* 글자 스태거: 한 글자씩 간격을 두고 차례로 올라옵니다 */
+.hb-slide.on .ch{animation:stagger .75s cubic-bezier(.22,1,.36,1) both;animation-delay:calc(var(--i)*80ms + .3s)}
+@keyframes stagger{from{opacity:0;transform:translateY(.7em)}}
+/* 움직임: 클래스 .on 이 붙을 때만 재생. 끝 상태가 기본이라 움직임을 꺼도 글자가 보입니다 */
+.hb-slide.on .eyebrow{animation:fadeUp .8s .1s both}
+.hb-slide.on .en-slogan{animation:fadeUp .9s 1.5s both}
+.hb-slide.on .lead{animation:fadeUp .9s 1.7s both}
+.hb-slide.on .btns{animation:fadeUp .9s 1.9s both}
+.hb-slide.on .brush path{animation:draw 1s 1.3s ease-out both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}}
+@keyframes draw{from{stroke-dashoffset:1}}
+.hb-slide.on .bgword{animation:drift 14s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(0)}to{transform:translateX(4%)}}
+/* 그림 요소 */
+.orbit{transform-box:fill-box;transform-origin:center;animation:spin 26s linear infinite}
+.orbit.rev{animation-duration:34s;animation-direction:reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.flow{stroke-dasharray:10 14;animation:flowd 3s linear infinite}
+@keyframes flowd{to{stroke-dashoffset:-48}}
+.bob{animation:bob 5s ease-in-out infinite}
+.bob.d1{animation-delay:-1.6s}.bob.d2{animation-delay:-3.2s}
+@keyframes bob{50%{transform:translateY(-12px)}}
+.sway{transform-box:fill-box;transform-origin:bottom center;animation:sway 6s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+.cloud{animation:cloud 40s linear infinite}
+@keyframes cloud{from{transform:translateX(-60px)}to{transform:translateX(60px)}}
+.s2.on .grow{transform-box:fill-box;transform-origin:bottom center;animation:grow 1.2s cubic-bezier(.2,1.3,.4,1) both}
+.s2.on .grow.g2{animation-delay:.9s}.s2.on .grow.g3{animation-delay:1.3s}.s2.on .grow.g4{animation-delay:1.7s}
+@keyframes grow{from{transform:scale(0)}}
+.s2.on .stem{stroke-dasharray:1;animation:draw 1s .3s ease-out both}
+.glow{animation:glow 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes glow{50%{transform:scale(1.15);opacity:.6}}
+.bokeh{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.55),rgba(255,255,255,0) 70%);animation:bk 9s ease-in-out infinite alternate}
+@keyframes bk{to{transform:translate(24px,-30px) scale(1.15)}}
+.leaf-tl{position:absolute;left:0;top:0;width:260px;height:200px;z-index:2;pointer-events:none}
+/* 조작부 */
+.hb-ctrl{position:absolute;left:0;right:0;bottom:56px;z-index:5}
+.hb-ctrl .wrap{display:flex;gap:10px;align-items:center}
+.hb-dot{width:64px;height:20px;background:none;border:0;padding:8px 0;position:relative}
+.hb-dot::before{content:"";position:absolute;left:0;right:0;top:8px;height:4px;border-radius:4px;background:rgba(30,61,38,.22)}
+.hb-dot i{position:absolute;left:0;top:8px;height:4px;border-radius:4px;width:0;background:var(--green)}
+.hb.dark .hb-dot::before{background:rgba(255,255,255,.35)}
+.hb.dark .hb-dot i{background:#fff}
+.hb-dot.on i{animation:prog 8s linear both}
+.hb.paused .hb-dot.on i{animation:none;width:100%}
+@keyframes prog{to{width:100%}}
+.hb-pause{margin-left:8px;background:rgba(255,255,255,.75);border:1px solid rgba(30,61,38,.2);border-radius:999px;font-size:12px;font-weight:700;color:var(--green);padding:6px 14px}
+@media(max-width:900px){
+  .s1 .hb-scrim{background:linear-gradient(180deg,rgba(255,255,255,.78),rgba(255,255,255,.66) 60%,rgba(255,255,255,.3))}
+  .s2 .hb-scrim{background:linear-gradient(180deg,rgba(14,50,24,.7),rgba(14,50,24,.55) 60%,rgba(14,50,24,.25))}
+  .hb-pause{white-space:nowrap}
+  .hb{height:640px}
+  .hb-art{width:100%;opacity:.34}
+  .hb-copy{padding-top:44px}
+  .hb h1 .ln{white-space:normal}
+}
+@media(prefers-reduced-motion:reduce){.hb *{animation:none!important}.hb-dot.on i{width:100%}}
+
+/* 바로가기 아이콘 바 */
+.quick{position:relative;z-index:2;margin-top:-34px}
+.quick .box{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:22px 16px;display:grid;grid-template-columns:repeat(6,1fr);gap:8px;box-shadow:0 14px 34px rgba(30,61,38,.12)}
+.quick a{display:flex;flex-direction:column;align-items:center;gap:10px;font-size:14px;font-weight:700;color:var(--green);padding:6px 4px;border-radius:12px;text-align:center}
+.quick a:hover{background:var(--cream)}
+.quick .ic{width:56px;height:56px;border-radius:50%;display:grid;place-items:center}
+.quick .ic svg{width:28px;height:28px;stroke:var(--green);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.quick .c1{background:#dcebd0}.quick .c2{background:var(--lime)}.quick .c3{background:#e8efd9}.quick .c4{background:#f0ead2}.quick .c5{background:#dde8dc}.quick .c6{background:#cfe3bd}
+@media(max-width:900px){.quick .box{grid-template-columns:repeat(3,1fr)}}
+
+/* 자가진단 */
+.chk-prog{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin:6px 0 20px}
+.chk-prog i{display:block;height:100%;width:0;background:var(--lime);transition:width .25s}
+.chk-q{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:22px}
+.chk-q .cat{font-family:var(--en);font-weight:700;font-size:12px;letter-spacing:.14em;color:#4d7f35}
+.chk-q h3{margin:6px 0 14px;font-size:18px}
+.opts{display:grid;gap:10px}
+.opts button{text-align:left;background:var(--cream);border:1.5px solid var(--line);border-radius:10px;padding:13px 16px;font-size:15px;color:var(--ink)}
+.opts button:hover{border-color:var(--lime)}
+.opts button.sel{border-color:var(--green);background:#e7f1de;font-weight:700}
+.chk-nav{display:flex;justify-content:space-between;margin-top:16px}
+.chk-nav button{border:0;border-radius:999px;padding:11px 22px;font-weight:700;background:var(--green);color:#fff}
+.chk-nav button.ghost{background:transparent;color:var(--green);border:1.5px solid var(--line)}
+.chk-nav button:disabled{opacity:.35;cursor:default}
+.res{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:26px}
+.res .lv{font-size:26px;font-weight:900;color:var(--green)}
+.bar{display:grid;grid-template-columns:110px 1fr 54px;gap:12px;align-items:center;margin:12px 0;font-size:14.5px}
+.bar .tr{height:12px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar .tr i{display:block;height:100%;background:var(--lime)}
+.bar b{font-family:var(--en);text-align:right}
+
+/* 오시는 길 */
+.loc{display:flex;gap:18px;align-items:center;background:var(--white);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin-bottom:6px}
+.loc .pin{flex:none;width:60px;height:60px;border-radius:50%;background:var(--green);color:var(--lime);display:grid;place-items:center}
+.loc .pin svg{width:30px;height:30px}
+.loc b{font-size:18px;color:var(--green)}
+.loc .addr{font-size:20px;font-weight:700;margin:2px 0 0}
+.loc .sub{font-size:14px;color:var(--muted);margin:2px 0 0}
+
+/* 모바일 하단 전화 */
+.callbar{display:none}
+
+@media(max-width:900px){
+  nav.gnb{display:none;position:absolute;left:0;right:0;top:100%;background:var(--cream);border-bottom:1px solid var(--line);flex-direction:column;padding:8px 20px 18px;max-height:75vh;overflow:auto}
+  nav.gnb.open{display:flex}
+  nav.gnb .top{padding:14px 4px;border-bottom:1px solid var(--line)}
+  nav.gnb .sub{display:block;position:static;transform:none;box-shadow:none;border:0;background:transparent;padding:0 0 6px 10px}
+  .burger{display:block}
+  .cta-sm{display:none}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .two{grid-template-columns:1fr}
+  .subwrap{grid-template-columns:1fr;gap:24px}
+  .side{position:static;display:flex;flex-wrap:wrap;padding:8px}
+  .side h4{display:none}
+  .banner{padding:32px 24px}
+  form .row{grid-template-columns:1fr}
+  .util .links{display:none}
+  .float{display:none}
+  body{padding-bottom:64px}
+  .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--green);color:#fff}
+  .callbar a{flex:1;text-align:center;padding:16px 8px;font-weight:700;font-size:15px}
+  .callbar a+a{background:var(--lime);color:var(--green)}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* ===== 답답함을 줄이는 연한 그린 톤 ===== */
+:root{--mint:#E7F1DC;--mint2:#F1F7E8;--leaf:#3f8d2d}
+/* 흰 배경 ESG 아이콘 영역 */
+.eg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.eg .grp{background:var(--white);border:1px solid #e3ead6;border-radius:18px;padding:24px 22px 20px}
+.eg .grp h3{display:flex;align-items:baseline;gap:8px;font-size:17px;color:var(--green);margin-bottom:16px}
+.eg .grp h3 small{font-family:var(--en);font-size:11px;letter-spacing:.16em;color:#6f9a58;font-weight:600}
+.eg .ics{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 10px}
+.eg .ico{display:flex;align-items:center;gap:12px;font-size:14px;color:#3b5a43}
+.eg .ico .c{flex:none;width:52px;height:52px;border-radius:50%;background:var(--mint);display:grid;place-items:center}
+.eg .ico svg{width:26px;height:26px;color:var(--leaf)}
+@media(max-width:900px){.eg{grid-template-columns:1fr}}
+
+/* 관리자 체험 */
+.note.demo{background:#eef2e6;border-radius:10px;padding:10px 14px;color:var(--green)}
+.nlist details summary{cursor:pointer;display:flex;gap:14px;list-style:none}
+.nlist details summary::-webkit-details-marker{display:none}
+.nbody{margin:10px 0 2px;padding:12px 14px;background:var(--white);border-radius:10px;font-size:14.5px;line-height:1.7;color:var(--ink)}
+.tag.off{background:#d9ddd2;color:#666}
+.adm-login{max-width:420px;background:var(--white);border:1px solid var(--line);border-radius:16px;padding:22px}
+.adm-tabs{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap}
+.adm-tabs button{font:inherit;font-weight:700;padding:9px 18px;border-radius:999px;border:1px solid var(--green);background:var(--white);color:var(--green);cursor:pointer}
+.adm-tabs button.on{background:var(--green);color:#fff}
+.adm-form{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:6px 22px 20px;margin-bottom:26px}
+.adm-msg{margin-left:12px;font-size:14px;color:var(--leaf);font-weight:700}
+.adm-del,.adm-st{font:inherit;font-size:13px;padding:5px 12px;border-radius:8px;border:1px solid #c8d0bd;background:var(--white);cursor:pointer;color:var(--ink)}
+.adm-del:hover{border-color:#b33;color:#b33}
+
+/* 사이트맵 */
+.smap{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin-top:8px}
+.smap-home,.smap-col{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.smap-home{grid-column:1/-1;display:flex;align-items:baseline;gap:12px}
+.smap-home a{font-family:var(--en);font-weight:800;font-size:20px;color:var(--green);text-decoration:none}
+.smap-home small{color:var(--muted)}
+.smap-col h3{margin:0 0 12px;font-size:16px;color:var(--green);border-bottom:2px solid var(--lime);padding-bottom:10px}
+.smap-col h3 span{font-family:var(--en);font-weight:800;font-size:14px;margin-right:6px;color:var(--leaf)}
+.smap-col ul{margin:0;padding:0;list-style:none}
+.smap-col li{padding:6px 0}
+.smap-col a{color:var(--ink);text-decoration:none;font-size:15px}
+.smap-col a:hover{color:var(--leaf);text-decoration:underline}
+</style>
+</head>
+<body>
+
+<div class="util">
+  <div class="wrap">
+    <span>평일 10:00 ~ 18:00 (점심 13:00 ~ 14:30)</span>
+    <span class="links">
+      <a href="https://kesgma.kr" target="_blank" rel="noopener">협회</a>
+      <a href="https://blog.naver.com/globalesgci_" target="_blank" rel="noopener">블로그</a>
+      <a href="https://center-pf.kakao.com" target="_blank" rel="noopener">카카오톡 채널</a>
+    </span>
+    <a class="tel" href="tel:1599-9895">고객센터 1599-9895</a>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="#home" aria-label="글로벌ESG인증원 홈">
+      <span class="mark"><svg viewBox="0 0 24 24" fill="none"><path d="M5 19c0-8 5-13 14-14 0 9-5 14-14 14Z" fill="#8FBC6F"/><path d="M5 19c3-5 6-8 10-10" stroke="#1E3D26" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+      <span>글로벌ESG인증원<small>GLOBAL ESG CERTIFICATION</small></span>
+    </a>
+    <nav class="gnb" id="gnb" aria-label="주 메뉴"></nav>
+    <a class="cta-sm" href="#contact-inquiry">상담·견적 문의</a>
+    <button class="burger" id="burger" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="#home"><span>글로벌ESG인증원<small>GLOBAL ESG CERTIFICATION</small></span></a>
+        <address>
+          글로벌이에스지인증원 주식회사 · 대표이사 지은선 · 개인정보책임자 김민성<br>
+          경기도 광명시 오리로 362, 4층<br>
+          팩스 0505-021-6421 · 0504-470-5057<br>
+          사업자등록번호 입력 예정 · 이메일 입력 예정
+        </address>
+        <div class="fl">
+          <a href="#contact-inquiry">개인정보처리방침</a>
+          <a href="#sitemap">사이트맵</a>
+          <a href="#contact-inquiry">이용약관</a>
+          <a href="#about-location">오시는 길</a>
+        </div>
+      </div>
+      <div>
+        <div class="tel">1599-9895</div>
+        <p style="margin-top:6px">평일 10:00 ~ 18:00<br>점심 13:00 ~ 14:30</p>
+      </div>
+    </div>
+    <div class="copy">© 2026 Global ESG Certification Institute Co., Ltd. All rights reserved.</div>
+  </div>
+</footer>
+
+<div class="float">
+  <a class="a1" href="#contact-inquiry">간편 상담 신청</a>
+  <a class="a2" href="#academy-schedule">교육센터</a>
+</div>
+
+<div class="callbar">
+  <a href="tel:1599-9895">전화 1599-9895</a>
+  <a href="#contact-inquiry">상담 문의</a>
+</div>
+
+<script>
+/* ---------- 메뉴 정의 ---------- */
+const MENU=[
+ {id:'about',label:'ABOUT',ko:'회사소개',subs:[['about-greeting','인사말·비전'],['about-history','걸어온 길'],['about-location','오시는 길']]},
+ {id:'service',label:'SERVICE',ko:'서비스',subs:[['service-esg','ESG 경영'],['service-supply','공급망 실사'],['service-report','지속가능경영보고서'],['service-carbon','탄소배출평가'],['service-iso','ISO 인증'],['service-check','ESG 자가진단']]},
+ {id:'academy',label:'ACADEMY',ko:'아카데미',subs:[['academy-courses','교육과정 안내'],['academy-license','민간자격 2종'],['academy-schedule','교육 일정·신청'],['academy-guide','ESG 알아보기']]},
+ {id:'news',label:'NEWS',ko:'소식',subs:[['news-notice','공지사항'],['news-blog','블로그'],['news-youtube','유튜브']]},
+ {id:'contact',label:'CONTACT',ko:'문의',subs:[['contact-inquiry','상담·견적 문의'],['contact-kakao','카카오톡 채널']]}
+];
+
+/* ---------- 공통 조각 ---------- */
+const ph=(t)=>`<div class="ph-box"><b>원고 입력 예정</b> · ${t}</div>`;
+const banner=`
+<section class="blk"><div class="wrap"><div class="banner">
+  <div><span class="tel">1599-9895</span><h2>ESG 경영, 어디서부터 시작할지 막막하신가요?</h2><p>현재 수준을 함께 살펴보고 필요한 단계를 안내해 드립니다.</p></div>
+  <div class="btns" style="margin:0"><a class="btn lime" href="#contact-inquiry">상담·견적 문의</a><a class="btn line" href="#academy-schedule">교육 일정 보기</a></div>
+</div></div></section>`;
+
+const steps=(arr)=>`<div class="steps">${arr.map(([a,b])=>`<div><b>${a}</b>${b}</div>`).join('')}</div>`;
+const cards=(arr,link)=>`<div class="cards">${arr.map(([n,t,d,h],i)=>`<${h?'a href="#'+h+'"':'div'} class="card"><span class="no">${n}</span><h3>${t}</h3><p>${d}</p>${h?'<span class="go">자세히 보기 →</span>':''}</${h?'a':'div'}>`).join('')}</div>`;
+
+/* ---------- 메인 배너 ---------- */
+function kchars(txt,start){let n=start;return [...txt].map(c=>`<span class="ch" style="--i:${n++}">${c}</span>`).join('')}
+function slogan(){
+  const l1=`<span class="ln">${kchars('ESG를',0)}<span class="sp"></span><span class="em">${kchars('말하다',4)}</span>${kchars(',',7)}</span>`;
+  const l2=`<span class="ln">${kchars('미래를',8)}<span class="sp"></span><span class="em">${kchars('그리다',12)}</span></span>`;
+  return `<h1 aria-label="ESG를 말하다, 미래를 그리다"><span aria-hidden="true">${l1}${l2}</span></h1><svg class="brush" viewBox="0 0 300 20" aria-hidden="true"><path pathLength="1" d="M4 13C70 3 150 3 296 9"/></svg>`;
+}
+function copy(dk){
+  return `<div class="wrap hb-copy"><span class="eyebrow">GLOBAL ESG CERTIFICATION INSTITUTE</span>${slogan()}
+  <div class="en-slogan">Speaking of ESG, Drawing the Future</div>
+  <p class="lead">일반기업과 사회연대경제기업이 각자의 자리에서 지속가능한 성장을 설계하도록, 진단부터 보고서, 교육까지 한 곳에서 돕습니다.</p>
+  <div class="btns"><a class="btn lime" href="#contact-inquiry">상담·견적 문의</a><a class="btn line ${dk?'':'dk'}" href="#service-esg">서비스 둘러보기</a></div></div>`;
+}
+function heroBanner(){
+  return `<section class="hb" aria-roledescription="carousel" aria-label="메인 배너">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+   <symbol id="i-sprout" viewBox="0 0 48 48"><path d="M24 43V24" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M24 27C24 18 18 12 8 12c0 9 6 15 16 15Z" fill="currentColor"/><path d="M24 23c0-8 5-14 15-14 0 8-5 14-15 14Z" fill="currentColor"/></symbol>
+   <symbol id="i-people" viewBox="0 0 48 48"><circle cx="24" cy="14" r="6.5" fill="currentColor"/><path d="M12 40c0-9 5-14 12-14s12 5 12 14Z" fill="currentColor"/><circle cx="9" cy="21" r="4.5" fill="currentColor"/><circle cx="39" cy="21" r="4.5" fill="currentColor"/><path d="M1 38c0-6 3-10 8-10 1 0 2 0 3 .5-2 3-3 6-3 9.500Z M47 38c0-6-3-10-8-10-1 0-2 0-3 .5 2 3 3 6 3 9.500Z" fill="currentColor"/></symbol>
+   <symbol id="i-gov" viewBox="0 0 48 48"><path d="M24 5 4 16v4h40v-4Z" fill="currentColor"/><rect x="8" y="23" width="5" height="14" fill="currentColor"/><rect x="17" y="23" width="5" height="14" fill="currentColor"/><rect x="26" y="23" width="5" height="14" fill="currentColor"/><rect x="35" y="23" width="5" height="14" fill="currentColor"/><rect x="4" y="39" width="40" height="5" fill="currentColor"/></symbol>
+  </defs></svg>
+  <div class="hb-slide s2 on"><img class="hb-vid" src="bn1.jpg" alt="" aria-hidden="true"><div class="hb-scrim"></div>${copy(true)}</div>
+  <div class="hb-slide s2"><img class="hb-vid" src="bn2.jpg" alt="" aria-hidden="true" loading="lazy"><div class="hb-scrim"></div>${copy(true)}</div>
+  <div class="hb-slide s2"><img class="hb-vid" src="bn3.jpg" alt="" aria-hidden="true" loading="lazy"><div class="hb-scrim"></div>${copy(true)}</div>
+  <div class="hb-ctrl"><div class="wrap">
+    <button class="hb-dot on" aria-label="배너 1"><i></i></button><button class="hb-dot" aria-label="배너 2"><i></i></button><button class="hb-dot" aria-label="배너 3"><i></i></button>
+    <button class="hb-pause" id="hbPause">일시정지</button><button class="hb-pause" id="hbSound">소리 켜기</button>
+  </div></div></section>`;
+}
+/* ---------- ESG 아이콘 영역 (흰 배경, 연한 그린 톤) ---------- */
+const EI={
+ carbon:'<path d="M7 18a4 4 0 0 1-.5-8A5.500 5.500 0 0 1 17 8.500a4.500 4.500 0 0 1 .5 9.500Z"/><path d="M12 11v6M9.500 14.500 12 17l2.500-2.500"/>',
+ energy:'<circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.600 5.600 7 7M17 17l1.400 1.400M18.400 5.600 17 7M7 17l-1.400 1.400"/>',
+ recycle:'<path d="M20 12a8 8 0 0 1-14 5.300M4 12a8 8 0 0 1 14-5.300"/><path d="M18 3v4h-4M6 21v-4h4"/>',
+ water:'<path d="M12 3C8 8 6 11 6 14a6 6 0 0 0 12 0c0-3-2-6-6-11Z"/>',
+ people:'<circle cx="12" cy="8" r="3.500"/><path d="M5 20c0-4 3-6 7-6s7 2 7 6"/>',
+ safety:'<path d="M12 3l7 3v6c0 4.500-3 7.500-7 9-4-1.500-7-4.500-7-9V6Z"/><path d="m9 12 2 2 4-4"/>',
+ supply:'<path d="M3 7h11v9H3ZM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="1.800"/><circle cx="17" cy="18" r="1.800"/>',
+ community:'<path d="M12 20S4 15 4 9.500A4 4 0 0 1 12 8a4 4 0 0 1 8 1.500C20 15 12 20 12 20Z"/>',
+ ethics:'<path d="M12 4v16M7 20h10M5 8h14"/><path d="m5 8-3 7a3 3 0 0 0 6 0ZM19 8l-3 7a3 3 0 0 0 6 0Z"/>',
+ report:'<path d="M6 3h9l4 4v14H6Z"/><path d="M14 3v5h5M9 13h7M9 17h7"/>',
+ policy:'<path d="m3 10 9-6 9 6M5 10v8M9 10v8M15 10v8M19 10v8M3 20h18"/>',
+ comply:'<path d="M8 4h8v3H8Z"/><path d="M6 6h12v15H6Z"/><path d="m9 14 2 2 4-4"/>'
+};
+function esgIcons(){
+  const g=[['환경','ENVIRONMENT',[['carbon','탄소 감축'],['energy','에너지 전환'],['recycle','자원 순환'],['water','수자원 관리']]],
+           ['사회','SOCIAL',[['people','인권·다양성'],['safety','안전보건'],['supply','공급망 관리'],['community','지역사회 공헌']]],
+           ['지배구조','GOVERNANCE',[['ethics','윤리경영'],['report','정보 공개'],['policy','정책·이사회'],['comply','준법경영']]]];
+  return `<section class="blk alt"><div class="wrap">
+  <div class="sec-head"><div class="t"><small>ESG AT A GLANCE</small><h2>ESG, 한눈에 살펴보기</h2></div><a class="more" href="#academy-guide">ESG 알아보기</a></div>
+  <div class="eg">${g.map(x=>`<div class="grp"><h3>${x[0]}<small>${x[1]}</small></h3><div class="ics">${x[2].map(i=>`<div class="ico"><span class="c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${EI[i[0]]}</svg></span>${i[1]}</div>`).join('')}</div></div>`).join('')}</div>
+</div></section>`;
+}
+
+function initHero(){
+  clearTimeout(window.__hb);
+  const hb=document.querySelector('.hb'); if(!hb) return;
+  const sl=[...hb.querySelectorAll('.hb-slide')],dots=[...hb.querySelectorAll('.hb-dot')];
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let i=0,paused=reduce;
+  const vids=sl.map(x=>x.querySelector('video'));
+  vids.forEach(v=>{if(v){v.muted=true;v.volume=.25}});
+  const snd=document.getElementById('hbSound');
+  const playVid=()=>{
+    vids.forEach((v,k)=>{if(!v)return;
+      if(k===i&&!reduce){v.currentTime=0;const p=v.play();if(p&&p.catch)p.catch(()=>{})}else v.pause()});
+    snd.style.display=vids[i]?'':'none';
+  };
+  snd.onclick=()=>{
+    const on=vids.some(v=>v&&!v.muted);
+    vids.forEach(v=>{if(v){v.muted=on;v.volume=.25}});
+    snd.textContent=on?'소리 켜기':'소리 끄기';
+  };
+  const go=n=>{
+    i=(n+sl.length)%sl.length;
+    sl.forEach(s=>s.classList.remove('on'));dots.forEach(d=>d.classList.remove('on'));
+    void hb.offsetWidth;
+    hb.classList.add('dark');
+    playVid();
+    sl[i].classList.add('on');dots[i].classList.add('on');
+    clearTimeout(window.__hb);
+    if(!paused) window.__hb=setTimeout(()=>go(i+1),8000);
+  };
+  dots.forEach((d,k)=>d.onclick=()=>go(k));
+  const pb=document.getElementById('hbPause');
+  const label=()=>{pb.textContent=paused?'재생':'일시정지';hb.classList.toggle('paused',paused)};
+  pb.onclick=()=>{paused=!paused;label();if(paused)clearTimeout(window.__hb);else go(i)};
+  label();go(0);
+}
+
+/* ---------- 페이지 ---------- */
+const PAGES={};
+
+PAGES.home=()=>`
+${heroBanner()}
+
+<div class="wrap quick"><div class="box">
+  ${[['service-check','ESG 자가진단','c2','<path d="M5 12l4 4 10-10"/><circle cx="12" cy="12" r="9"/>'],
+     ['service-carbon','탄소배출평가','c1','<path d="M4 18c0-7 5-12 15-13 0 9-5 14-15 13Z"/><path d="M4 18c3-5 6-8 10-10"/>'],
+     ['service-esg','ESG 경영','c3','<path d="M4 20V10l8-6 8 6v10"/><path d="M9 20v-6h6v6"/>'],
+     ['contact-inquiry','상담·견적','c4','<path d="M4 5h16v11H9l-5 4Z"/>'],
+     ['academy-schedule','교육 신청','c5','<path d="M3 9l9-5 9 5-9 5Z"/><path d="M7 11v5c3 2 7 2 10 0v-5"/>'],
+     ['news-notice','공지사항','c6','<path d="M6 16V10a6 6 0 0 1 12 0v6l2 2H4Z"/><path d="M10 21h4"/>']
+    ].map(q=>`<a href="#${q[0]}"><span class="ic ${q[2]}"><svg viewBox="0 0 24 24">${q[3]}</svg></span>${q[1]}</a>`).join('')}
+</div></div>
+
+<div class="clients"><div class="wrap">
+  <span class="lab">OUR CLIENTS</span>
+  <div class="marq" aria-label="고객사 목록"><div class="track">${[1,2].map(()=>['공공기관','금융','제조','유통','호텔·리조트','지자체','연구기관','사회연대경제기업'].map((t,i)=>`<span class="chip">고객사 로고 · ${t}</span>`).join('')).join('')}</div></div>
+</div></div>
+
+${esgIcons()}
+
+<section class="blk"><div class="wrap">
+  <div class="sec-head"><div class="t"><small>TRUST</small><h2>숫자로 보는 글로벌ESG인증원</h2></div></div>
+  <div class="stats">
+    <div class="stat"><div class="n ph">수치 입력</div><div class="l">누적 컨설팅 기업 수</div></div>
+    <div class="stat"><div class="n ph">수치 입력</div><div class="l">교육 수료 인원</div></div>
+    <div class="stat"><div class="n ph">수치 입력</div><div class="l">보고서 발간·검증 건수</div></div>
+    <div class="stat"><div class="n ph">수치 입력</div><div class="l">협력 기관·단체</div></div>
+  </div>
+  <p class="note">IR 회사소개서의 실적 수치로 교체합니다. 확인되지 않은 수치는 게시하지 않습니다.</p>
+</div></section>
+
+<section class="blk alt"><div class="wrap">
+  <div class="sec-head"><div class="t"><small>SERVICE</small><h2>우리가 하는 일</h2></div><a class="more" href="#service-esg">전체 서비스 보기</a></div>
+  ${cards([
+   ['ANALYTICS','ESG 경영','현재 수준을 진단하고 조직에 맞는 ESG 로드맵을 만듭니다.','service-esg'],
+   ['SUPPLY CHAIN','공급망 실사','협력사 ESG 리스크를 점검하고 개선 과제를 정리합니다.','service-supply'],
+   ['REPORTING','지속가능경영보고서','기획부터 작성, 검증까지 보고서 발간을 지원합니다.','service-report'],
+   ['CARBON','탄소배출평가','배출량 산정과 감축 방향 수립을 돕습니다.','service-carbon'],
+   ['VERIFICATION','ISO 인증','경영시스템 인증 준비와 사후 관리를 안내합니다.','service-iso']])}
+</div></section>
+
+<section class="blk"><div class="wrap">
+  <div class="sec-head"><div class="t"><small>ESG INTRODUCTION</small><h2>ESG, 이것부터 알아보세요</h2></div><a class="more" href="#academy-guide">전체 보기</a></div>
+  ${cards([['ESG','ESG란?','환경, 사회, 지배구조 세 축으로 기업의 지속가능성을 보는 기준입니다.','academy-guide'],['SUPPLY','ESG 공급망','원청뿐 아니라 협력사까지 ESG 관리 범위가 넓어지고 있습니다.','academy-guide'],['K-ESG','K-ESG 가이드라인','국내 기업이 참고할 수 있도록 정부가 마련한 ESG 평가 가이드라인입니다.','academy-guide'],['EU','EU 공급망 실사','EU 시장과 거래하는 기업이 알아야 할 공급망 실사 요구입니다.','academy-guide']])}
+</div></section>
+
+<section class="blk alt"><div class="wrap">
+  <div class="sec-head"><div class="t"><small>WHY GECI</small><h2>글로벌ESG인증원이 다른 이유</h2></div></div>
+  <div class="cards">
+    <div class="card"><span class="no">01</span><h3>진단에서 교육까지 한 곳에서</h3><p>진단, 보고서, 인증 준비, 교육이 이어져 기관을 여러 곳 거칠 필요가 없습니다.</p></div>
+    <div class="card"><span class="no">02</span><h3>일반기업과 사회연대경제기업 모두</h3><p>조직 규모와 성격에 맞춰 기준과 눈높이를 다르게 설계합니다.</p></div>
+    <div class="card"><span class="no">03</span><h3>실무 중심 전문 인력</h3><p>현장 경험을 가진 전문가가 직접 상담하고 수행합니다. (인력 구성은 원고 확정 후 구체화)</p></div>
+    <div class="card"><span class="no">04</span><h3>끝까지 함께하는 사후 관리</h3><p>결과를 전달하고 끝내지 않고 개선 이행까지 이어서 확인합니다.</p></div>
+  </div>
+</div></section>
+
+<section class="blk alt"><div class="wrap">
+  <div class="sec-head"><div class="t"><small>PORTFOLIO</small><h2>수행 사례</h2></div></div>
+  <div class="ph-box" style="margin:0"><b>사례 입력 예정</b> · 공공기관, 금융, 제조 등 분야별 수행 사례를 카드로 보여 줍니다. 등록된 사례가 없으면 이 영역은 숨깁니다.</div>
+</div></section>
+
+<section class="blk"><div class="wrap">
+  <div class="sec-head"><div class="t"><small>INQUIRY</small><h2>최근 상담 문의</h2></div><a class="more" href="#contact-inquiry">문의하기</a></div>
+  <div class="panel"><ul class="inq">
+    <li><span class="st">답변완료</span><span>ESG 경영진단 견적 문의드립니다 (예시)</span><span class="d">0000.00.00</span></li>
+    <li><span class="st w">접수</span><span>지속가능경영보고서 발간 일정 문의 (예시)</span><span class="d">0000.00.00</span></li>
+    <li><span class="st">답변완료</span><span>공급망 실사 준비 서류가 궁금합니다 (예시)</span><span class="d">0000.00.00</span></li>
+    <li><span class="st w">접수</span><span>교육 일정과 수강료 문의 (예시)</span><span class="d">0000.00.00</span></li>
+  </ul></div>
+  <p class="note">문의 제목만 보여 주고 이름·연락처·본문은 공개하지 않습니다. 제목에 개인정보가 들어가지 않도록 안내 문구를 둡니다.</p>
+</div></section>
+
+<section class="blk"><div class="wrap two">
+  <div>
+    <div class="sec-head"><div class="t"><small>ACADEMY</small><h2>교육·민간자격</h2></div><a class="more" href="#academy-schedule">일정 보기</a></div>
+    <div class="panel"><p style="margin-bottom:14px">ESG 실무자와 사회연대경제기업 구성원을 위한 교육과 민간자격 과정을 운영합니다.</p>
+    <ul class="list"><li><span class="d">교육과정</span><span>ESG 기초부터 실무까지 단계별 과정</span></li><li><span class="d">민간자격</span><span>민간자격 2종 안내</span></li><li><span class="d">맞춤 강의</span><span>기관·기업 요청에 따른 출강</span></li></ul></div>
+  </div>
+  <div>
+    <div class="sec-head"><div class="t"><small>NEWS</small><h2>소식</h2></div><a class="more" href="#news-notice">더 보기</a></div>
+    <div class="panel"><ul class="list" id="homeNews"></ul></div>
+  </div>
+</div></section>
+
+${banner}`.replace(banner,`
+<section class="blk"><div class="wrap two">
+  <div class="banner" style="flex-direction:column;align-items:flex-start"><div><span class="eyebrow">EDUCATION</span><h2 style="margin-top:6px">ESG 교육 연간 일정 확인</h2><p>교육과정과 모집 일정을 한눈에 확인하세요.</p></div><a class="btn lime" href="#academy-schedule">교육 일정 보기</a></div>
+  <div class="banner" style="flex-direction:column;align-items:flex-start;background:#2b5736"><div><span class="eyebrow">CONTACT US</span><h2 style="margin-top:6px">상담·견적 문의</h2><p>전화 1599-9895 또는 온라인으로 문의하세요.</p></div><a class="btn lime" href="#contact-inquiry">문의하기</a></div>
+</div></section>`);
+
+/* ABOUT */
+PAGES['about-greeting']=()=>`
+<h2>인사말</h2>
+<p>글로벌ESG인증원은 ESG를 어렵고 먼 이야기로 두지 않고, 기업과 사회연대경제기업이 실제로 해낼 수 있는 일로 풀어내고자 합니다. 규모가 다른 조직도 각자의 속도로 기준을 갖추고, 그 과정을 신뢰할 수 있는 기록으로 남기도록 곁에서 돕겠습니다.</p>
+<p>ESG를 말하는 데서 멈추지 않고 미래를 그려 가는 일까지 함께하겠습니다.</p>
+<p><b>대표이사 지은선</b></p>
+${ph('대표 인사말 최종 원고와 사진을 받으면 교체합니다. 위 문안은 구성을 보여 주기 위한 초안입니다.')}
+<h2>비전과 방향</h2>
+${cards([['01','신뢰','공정한 기준과 투명한 절차로 신뢰받는 전문기관이 됩니다.'],['02','상생','일반기업과 사회연대경제기업이 함께 성장하는 생태계를 만듭니다.'],['03','실행','진단에서 끝나지 않고 개선과 보고, 교육까지 이어갑니다.']])}`;
+
+PAGES['about-history']=()=>`
+<h2>걸어온 길</h2>
+<p>연도별 주요 활동을 타임라인으로 보여 줍니다. 아래는 구성 예시이며, 제작해 두신 연혁 HTML 시안을 받으면 그대로 반영합니다.</p>
+<div class="tl">
+  <div class="ev"><span class="y">20XX</span><p>법인 설립 및 ESG 컨설팅 사업 시작 (실제 연혁으로 교체)</p></div>
+  <div class="ev"><span class="y">20XX</span><p>ESG 경영진단·공급망 실사 서비스 개시 (실제 연혁으로 교체)</p></div>
+  <div class="ev"><span class="y">20XX</span><p>교육·민간자격 과정 운영 (실제 연혁으로 교체)</p></div>
+  <div class="ev"><span class="y">2026</span><p>홈페이지 전면 리뉴얼</p></div>
+</div>`;
+
+PAGES['about-location']=()=>{
+ const addr='경기도 광명시 오리로 362', q=encodeURIComponent(addr);
+ const maps=`<div class="btns"><a class="btn dark" href="https://map.naver.com/p/search/${q}" target="_blank" rel="noopener">네이버 지도</a><a class="btn dark" href="https://map.kakao.com/?q=${q}" target="_blank" rel="noopener">카카오맵</a><a class="btn dark" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">구글 지도</a></div>`;
+ return `
+<h2>오시는 길</h2>
+<div class="loc">
+  <span class="pin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.200 7-11.500A7 7 0 0 0 5 9.500C5 14.800 12 21 12 21Z"/><circle cx="12" cy="9.500" r="2.500"/></svg></span>
+  <div><b>글로벌ESG인증원</b><p class="addr">경기도 광명시 오리로 362, 4층</p><p class="sub">건물명 광명시 창업지원센터 · 우편번호 14327</p></div>
+</div>
+${maps}
+<h3>상세 정보</h3>
+<table class="tbl"><tbody>
+<tr><th>도로명 주소</th><td>경기도 광명시 오리로 362, 4층</td></tr>
+<tr><th>지번 주소</th><td>경기도 광명시 소하동 1268-3</td></tr>
+<tr><th>영문 주소</th><td class="en">4F, 362, Ori-ro, Gwangmyeong-si, Gyeonggi-do, Republic of Korea</td></tr>
+<tr><th>건물</th><td>광명시 창업지원센터 (4층)</td></tr>
+<tr><th>전화</th><td><a href="tel:1599-9895">1599-9895</a></td></tr>
+<tr><th>팩스</th><td>0505-021-6421 · 0504-470-5057</td></tr>
+<tr><th>상담시간</th><td>평일 10:00 ~ 18:00 (점심 13:00 ~ 14:30)</td></tr>
+</tbody></table>
+<h3>찾아오시는 방법</h3>
+${cards([
+ ['대중교통','지도 앱에서 길찾기','도착지를 "경기도 광명시 오리로 362"로 입력하면 출발지에서 가장 빠른 대중교통 경로를 확인할 수 있습니다. 위 지도 버튼을 눌러 바로 검색하세요.'],
+ ['자가용','내비게이션 안내','내비게이션에 "경기도 광명시 오리로 362" 또는 "광명시 창업지원센터"를 입력하세요. 주차 가능 여부와 요금은 방문 전에 1599-9895로 문의해 주세요.'],
+ ['방문 전','미리 연락 주세요','상담은 평일 10:00 ~ 18:00(점심 13:00 ~ 14:30)에 가능합니다. 방문 전에 연락 주시면 담당자를 맞춰 안내해 드립니다. 건물 4층으로 오시면 됩니다.']
+])}`;
+};
+
+/* SERVICE */
+const svc=(title,lead,items,flow)=>()=>`
+<h2>${title}</h2><p>${lead}</p>
+<h3>이런 분께 필요합니다</h3>
+<ul class="checks">${items.map(i=>`<li>${i}</li>`).join('')}</ul>
+<h3>진행 절차</h3>${steps(flow)}
+${ph('세부 서비스 내용과 사례는 기존 사이트 내용을 보완해 채웁니다.')}
+<div class="btns"><a class="btn dark" href="#contact-inquiry">이 서비스 상담 신청</a></div>`;
+
+PAGES['service-esg']=svc('ESG 경영','조직의 현재 수준을 진단하고, 규모와 업종에 맞는 ESG 경영 체계와 로드맵을 만듭니다. 일반기업과 사회연대경제기업 모두 대상입니다.',
+ ['ESG 대응을 처음 준비하는 기업','거래처에서 ESG 평가나 자료 제출을 요청받은 기업','사회적 가치와 경영 성과를 함께 관리하려는 사회연대경제기업'],
+ [['상담','현황과 요구 파악'],['진단','ESG 항목별 점검'],['분석','개선 과제 도출'],['제안','로드맵·정책 수립'],['이행','실행 지원']]);
+PAGES['service-supply']=svc('공급망 실사','협력사의 환경, 인권, 안전, 윤리 항목을 점검하고 리스크와 개선 과제를 정리합니다.',
+ ['원청이 요구하는 공급망 ESG 점검에 대응해야 하는 기업','협력사 관리 기준을 새로 만들려는 기업'],
+ [['범위 설정','대상과 항목 확정'],['자료 수집','설문·서류 검토'],['현장 점검','필요 시 방문'],['결과 보고','리스크 등급·개선안']]);
+PAGES['service-report']=svc('지속가능경영보고서','ESG 활동과 성과를 이해관계자가 믿고 읽을 수 있는 보고서로 정리합니다. 기획, 작성, 검증 단계를 지원합니다.',
+ ['첫 보고서를 발간하려는 기업·기관','기존 보고서의 구성과 신뢰도를 높이려는 기업'],
+ [['기획','주제·범위 설정'],['자료 수집','지표 정리'],['작성','초안 집필'],['검증','내용 확인'],['발간','디자인·배포']]);
+PAGES['service-carbon']=svc('탄소배출평가','사업 활동에서 나오는 온실가스 배출량을 산정하고 감축 방향을 세웁니다.',
+ ['배출량 현황을 처음 파악하려는 기업','탄소 관련 자료 제출을 요구받는 기업'],
+ [['경계 설정','산정 범위 확정'],['활동자료 수집','에너지·연료 등'],['배출량 산정','기준에 따른 계산'],['감축 제안','우선순위 정리']]);
+PAGES['service-iso']=()=>`
+<h2>ISO 인증</h2>
+<p>경영시스템 인증 준비부터 심사 대응, 사후 관리까지 안내합니다.</p>
+<h3>분야별 인증 규격</h3>
+<div class="iso">
+  <div class="g"><h3>품질·고객만족</h3><span>ISO 9001</span><span>ISO 10002</span></div>
+  <div class="g"><h3>환경·에너지</h3><span>ISO 14001</span><span>ISO 50001</span></div>
+  <div class="g"><h3>안전·재난</h3><span>ISO 45001</span><span>ISO 22301</span></div>
+  <div class="g"><h3>정보보호·AI</h3><span>ISO/IEC 27001</span><span>ISO/IEC 27701</span><span>ISO/IEC 42001</span></div>
+  <div class="g"><h3>윤리·인권</h3><span>ISO 37001</span><span>ISO 37301</span><span>ISO 26000</span></div>
+</div>
+${ph('분야 구성은 구조 예시입니다. 실제 취급 규격이 확정되면 목록을 맞추고, 규격별 상세 원고를 채웁니다.')}
+<h3>안내 구성</h3>
+<ul class="checks"><li>인증 종류별 소개</li><li>인증 절차와 소요 기간</li><li>준비 서류와 자주 묻는 질문</li><li>인증 상담 신청</li></ul>
+<div class="btns"><a class="btn dark" href="#contact-inquiry">ISO 인증 상담 신청</a></div>`;
+
+/* ACADEMY */
+PAGES['academy-courses']=()=>`
+<h2>교육과정 안내</h2>
+<p>ESG 실무자, 기업 구성원, 사회연대경제기업 종사자를 위해 단계별 과정을 운영합니다. 기관·기업의 요청에 맞춘 맞춤형 강의도 가능합니다.</p>
+${cards([['A','ESG 기초','ESG의 개념과 흐름, 기업이 알아야 할 기본 기준'],['B','ESG 실무','진단, 보고서, 공급망 대응 실무 과정'],['C','맞춤형 강의','기관·기업 요청에 따라 내용과 시간 구성']])}
+${ph('과정별 커리큘럼, 시간, 수강료는 원고를 받아 입력합니다.')}`;
+PAGES['academy-license']=()=>`
+<h2>민간자격 2종</h2>
+<p>글로벌ESG인증원이 운영하는 민간자격 과정을 안내합니다.</p>
+${cards([['자격 1','자격명 입력 예정','응시 자격, 교육 과정, 평가 방법'],['자격 2','자격명 입력 예정','응시 자격, 교육 과정, 평가 방법']])}
+${ph('자격명과 등록번호, 발급 기관 표기는 확정된 원고 그대로 사용합니다.')}`;
+PAGES['academy-schedule']=()=>`
+<h2>교육 일정·신청</h2>
+<p>교육 일정을 확인하고 신청·문의하실 수 있습니다.</p>
+${DB.schedules.length?`<div class="scroll"><table class="tbl"><thead><tr><th>과정</th><th>일시</th><th>방식</th><th>상태</th><th>신청</th></tr></thead><tbody>
+${DB.schedules.map(x=>`<tr><td>${escH(x.title)}</td><td>${escH(x.date)}</td><td>${escH(x.way)}</td><td><span class="tag ${x.st==='마감'?'off':''}">${escH(x.st)}</span></td><td>${x.st==='마감'?'-':`<a href="#contact-inquiry" class="more">${x.st==='모집중'?'신청':'문의'}</a>`}</td></tr>`).join('')}
+</tbody></table></div>`:'<p>등록된 교육 일정이 없습니다.</p>'}
+${demoNote}
+<div class="btns"><a class="btn dark" href="#admin">관리자 화면 체험하기</a></div>`;
+
+PAGES['sitemap']=()=>`
+<h2>사이트맵</h2>
+<p>홈페이지의 모든 메뉴를 한눈에 확인하고 바로 이동할 수 있습니다.</p>
+<div class="smap">
+  <div class="smap-home"><a href="#home">HOME</a><small>메인 화면</small></div>
+  ${MENU.map(m=>`<div class="smap-col"><h3><span>${m.label}</span> ${m.ko}</h3><ul>${m.subs.map(x=>`<li><a href="#${x[0]}">${x[1]}</a></li>`).join('')}</ul></div>`).join('')}
+</div>
+<p class="note">전화 상담 1599-9895 · 평일 10:00 ~ 18:00 (점심 13:00 ~ 14:30)</p>`;
+
+/* 관리자 체험 화면 */
+PAGES['admin']=()=>`
+<h2>관리자 화면 <span class="tag">체험용</span></h2>
+<div id="adm"></div>`;
+let admIn=false,admTab='notice';
+function initAdmin(){
+  const root=document.getElementById('adm'); if(!root) return;
+  const draw=()=>{
+    if(!admIn){
+      root.innerHTML=`<div class="adm-login"><p>담당자 전용 화면입니다. 실제 사이트에서는 아이디와 비밀번호로 로그인합니다.</p>
+      <label for="a-id">아이디</label><input id="a-id" value="admin" readonly>
+      <label for="a-pw">비밀번호</label><input id="a-pw" type="password" value="········" readonly>
+      <button class="btn dark" id="a-login" type="button" style="margin-top:16px">로그인 (체험)</button>
+      <p class="note">체험용이므로 입력 없이 들어갑니다.</p></div>`;
+      document.getElementById('a-login').onclick=()=>{admIn=true;draw()};
+      return;
+    }
+    const tabs=`<div class="adm-tabs"><button type="button" class="${admTab==='notice'?'on':''}" data-t="notice">공지사항</button><button type="button" class="${admTab==='sch'?'on':''}" data-t="sch">교육 일정</button><span style="flex:1"></span><button type="button" id="a-out">로그아웃</button></div>`;
+    let body='';
+    if(admTab==='notice'){
+      body=`<form id="a-form" class="adm-form"><h3>새 공지 쓰기</h3>
+      <div class="row"><div><label for="n-type">구분</label><select id="n-type"><option>공지</option><option>교육</option><option>동향</option></select></div>
+      <div><label for="n-date">날짜</label><input id="n-date" type="date"></div></div>
+      <label for="n-title">제목</label><input id="n-title" maxlength="80">
+      <label for="n-body">내용</label><textarea id="n-body" rows="4"></textarea>
+      <button class="btn dark" type="submit" style="margin-top:14px">등록하기</button><span class="adm-msg" id="a-msg"></span></form>
+      <h3>등록된 공지 (${DB.notices.length})</h3>
+      <ul class="list panel">${DB.notices.map(n=>`<li><span class="d">${escH(n.d)}</span><span style="flex:1"><span class="tag">${escH(n.t)}</span>${escH(n.title)}</span><button type="button" class="adm-del" data-k="notices" data-id="${n.id}">삭제</button></li>`).join('')||'<li>없음</li>'}</ul>`;
+    }else{
+      body=`<form id="a-form" class="adm-form"><h3>새 교육 일정 추가</h3>
+      <label for="s-title">과정명</label><input id="s-title" maxlength="80">
+      <div class="row"><div><label for="s-date">교육 날짜</label><input id="s-date" type="date"></div>
+      <div><label for="s-time">시간</label><input id="s-time" placeholder="예: 14:00~17:00"></div></div>
+      <div class="row"><div><label for="s-way">방식</label><select id="s-way"><option>오프라인</option><option>온라인</option><option>혼합</option></select></div>
+      <div><label for="s-st">상태</label><select id="s-st"><option>모집중</option><option>예정</option><option>마감</option></select></div></div>
+      <button class="btn dark" type="submit" style="margin-top:14px">등록하기</button><span class="adm-msg" id="a-msg"></span></form>
+      <h3>등록된 교육 일정 (${DB.schedules.length})</h3>
+      <div class="scroll"><table class="tbl"><thead><tr><th>과정</th><th>일시</th><th>방식</th><th>상태</th><th></th></tr></thead><tbody>
+      ${DB.schedules.map(x=>`<tr><td>${escH(x.title)}</td><td>${escH(x.date)}</td><td>${escH(x.way)}</td><td><button type="button" class="adm-st" data-id="${x.id}">${escH(x.st)} ↻</button></td><td><button type="button" class="adm-del" data-k="schedules" data-id="${x.id}">삭제</button></td></tr>`).join('')||'<tr><td colspan="5">없음</td></tr>'}
+      </tbody></table></div><p class="note">상태 버튼을 누르면 모집중 → 예정 → 마감 순으로 바뀝니다.</p>`;
+    }
+    root.innerHTML=tabs+body+`<p class="note demo"><b>체험용 화면</b> · 저장 내용은 이 브라우저에만 남습니다. <a href="#news-notice">공지사항</a>, <a href="#academy-schedule">교육 일정</a> 화면에서 바로 확인해 보세요. <a href="#" id="a-reset">처음 상태로 되돌리기</a></p>`;
+    root.querySelectorAll('.adm-tabs [data-t]').forEach(b=>b.onclick=()=>{admTab=b.dataset.t;draw()});
+    document.getElementById('a-out').onclick=()=>{admIn=false;draw()};
+    document.getElementById('a-reset').onclick=e=>{e.preventDefault();DB=JSON.parse(JSON.stringify(DB0));saveDB();draw()};
+    root.querySelectorAll('.adm-del').forEach(b=>b.onclick=()=>{DB[b.dataset.k]=DB[b.dataset.k].filter(x=>String(x.id)!==b.dataset.id);saveDB();draw()});
+    root.querySelectorAll('.adm-st').forEach(b=>b.onclick=()=>{const x=DB.schedules.find(y=>String(y.id)===b.dataset.id);const o=['모집중','예정','마감'];x.st=o[(o.indexOf(x.st)+1)%3];saveDB();draw()});
+    const f=document.getElementById('a-form'),msg=document.getElementById('a-msg');
+    const fmt=v=>v?v.replace(/-/g,'.'):'';
+    f.onsubmit=e=>{
+      e.preventDefault();
+      const id=Date.now();
+      if(admTab==='notice'){
+        const title=document.getElementById('n-title').value.trim();
+        if(!title){msg.textContent=' 제목을 입력해 주세요.';return}
+        const d=fmt(document.getElementById('n-date').value)||new Date().toISOString().slice(0,10).replace(/-/g,'.');
+        DB.notices.unshift({id,d,t:document.getElementById('n-type').value,title,body:document.getElementById('n-body').value});
+      }else{
+        const title=document.getElementById('s-title').value.trim();
+        if(!title){msg.textContent=' 과정명을 입력해 주세요.';return}
+        const dt=[fmt(document.getElementById('s-date').value),document.getElementById('s-time').value.trim()].filter(Boolean).join(' ')||'일정 입력';
+        DB.schedules.unshift({id,title,date:dt,way:document.getElementById('s-way').value,st:document.getElementById('s-st').value});
+      }
+      saveDB();draw();
+      const m=document.getElementById('a-msg');if(m)m.textContent=' 등록되었습니다.';
+    };
+  };
+  draw();
+}
+
+/* ESG 자가진단 */
+const QS=[
+ ['E','환경','온실가스·에너지 사용량을 정기적으로 집계하고 있나요?'],
+ ['E','환경','폐기물, 용수 등 환경 관련 관리 기준이나 담당자가 있나요?'],
+ ['E','환경','환경 관련 법규 준수 여부를 주기적으로 점검하나요?'],
+ ['E','환경','감축 목표나 개선 계획을 문서로 갖고 있나요?'],
+ ['S','사회','임직원 안전보건 관리 체계(규정·교육·점검)가 있나요?'],
+ ['S','사회','인권, 차별 금지, 노동 관련 방침이 마련되어 있나요?'],
+ ['S','사회','협력사나 고객과의 공정한 거래 기준이 있나요?'],
+ ['S','사회','지역사회나 사회적 가치 활동을 기록으로 관리하나요?'],
+ ['G','지배구조','윤리경영 규정이나 행동강령이 있나요?'],
+ ['G','지배구조','부정·부패 신고나 내부 제보 창구가 운영되나요?'],
+ ['G','지배구조','ESG를 총괄하는 담당 조직이나 책임자가 있나요?'],
+ ['G','지배구조','ESG 활동과 성과를 외부에 공개(보고서·홈페이지)하나요?']
+];
+const OPT=['충분히 하고 있다','일부 하고 있다','아직 하지 않는다'];
+PAGES['service-check']=()=>`
+<h2>ESG 자가진단</h2>
+<p>12개 질문에 답하면 환경, 사회, 지배구조 영역별 현재 수준을 간단히 확인할 수 있습니다. 약 3분 걸리며, 입력한 내용은 저장되거나 전송되지 않습니다.</p>
+<div id="chk"></div>
+<p class="note">참고용 간이 진단입니다. 정식 평가나 인증 결과와는 다르며, 정확한 진단은 상담을 통해 진행합니다.</p>`;
+function initCheck(){
+  const root=document.getElementById('chk'); if(!root) return;
+  let i=0; const a=Array(QS.length).fill(null);
+  const draw=()=>{
+    if(i>=QS.length) return result();
+    const q=QS[i];
+    root.innerHTML=`<div class="chk-prog"><i style="width:${i/QS.length*100}%"></i></div>
+    <div class="chk-q"><div class="cat">${q[0]} · ${q[1]} · ${i+1}/${QS.length}</div><h3>${q[2]}</h3>
+    <div class="opts">${OPT.map((o,k)=>`<button data-k="${k}" class="${a[i]===k?'sel':''}">${o}</button>`).join('')}</div></div>
+    <div class="chk-nav"><button class="ghost" id="prev" ${i?'':'disabled'}>이전</button><button id="next" ${a[i]===null?'disabled':''}>${i===QS.length-1?'결과 보기':'다음'}</button></div>`;
+    root.querySelectorAll('.opts button').forEach(b=>b.onclick=()=>{a[i]=+b.dataset.k;draw()});
+    root.querySelector('#prev').onclick=()=>{i--;draw()};
+    root.querySelector('#next').onclick=()=>{i++;draw()};
+  };
+  const result=()=>{
+    const cats={E:['환경',0,0],S:['사회',0,0],G:['지배구조',0,0]};
+    QS.forEach((q,n)=>{cats[q[0]][1]+=2-a[n];cats[q[0]][2]+=2});
+    const pct=x=>Math.round(x[1]/x[2]*100);
+    const tot=Math.round(Object.values(cats).reduce((s,x)=>s+x[1],0)/(QS.length*2)*100);
+    const lv=tot>=75?['체계 구축 단계','기본 체계가 갖춰져 있습니다. 보고서 발간이나 외부 평가 대응을 검토해 보세요.']:tot>=45?['기반 마련 단계','일부 관리가 되고 있습니다. 부족한 영역부터 기준과 담당을 정리하면 빠르게 올라갑니다.']:['시작 단계','지금부터 현황을 정리하면 됩니다. 어디서 시작할지 상담으로 함께 정해 보세요.'];
+    const low=Object.values(cats).sort((x,y)=>pct(x)-pct(y))[0][0];
+    root.innerHTML=`<div class="res"><div class="en eyebrow" style="color:#4d7f35">RESULT</div><div class="lv">${lv[0]} · <span class="en">${tot}점</span></div><p style="margin-top:6px">${lv[1]}</p>
+    ${Object.values(cats).map(x=>`<div class="bar"><span>${x[0]}</span><div class="tr"><i style="width:${pct(x)}%"></i></div><b>${pct(x)}</b></div>`).join('')}
+    <p>가장 먼저 보완하면 좋은 영역은 <b>${low}</b>입니다.</p>
+    <div class="btns"><a class="btn dark" href="#contact-inquiry">결과로 상담 신청</a><a class="btn line" style="color:var(--green);border-color:var(--line)" href="#service-check" id="again">다시 하기</a></div></div>`;
+    root.querySelector('#again').onclick=e=>{e.preventDefault();a.fill(null);i=0;draw()};
+  };
+  draw();
+}
+
+/* ESG 알아보기 */
+PAGES['academy-guide']=()=>`
+<h2>ESG란?</h2>
+<p>환경(Environmental), 사회(Social), 지배구조(Governance)의 머리글자입니다. 재무 성과만이 아니라 이 세 가지를 얼마나 잘 관리하는지로 기업의 지속가능성을 판단합니다.</p>
+<h2>ESG 공급망</h2>
+<p>최종 제품이 고객에게 닿기까지의 공급망 전체에서 ESG를 관리한다는 개념입니다. 원청이 협력사에 ESG 점검과 자료를 요구하는 일이 늘고 있어 중소기업도 대비가 필요합니다.</p>
+<h2>K-ESG 가이드라인</h2>
+<p>국내 기업, 특히 중소·중견기업이 ESG 경영 수준을 점검하고 개선할 때 참고하도록 정부가 마련한 가이드라인입니다. 자가진단의 기준을 잡을 때 활용할 수 있습니다.</p>
+<h2>EU 공급망 실사</h2>
+<p>EU 시장과 거래하는 기업에 공급망의 인권·환경 리스크를 확인하고 관리하도록 요구하는 제도입니다. 직접 적용 대상이 아니어도 거래처를 통해 자료 요청을 받을 수 있습니다.</p>
+${ph('법령명, 시행 시기, 적용 대상 등 세부 내용은 최신 자료로 확인한 뒤 원고를 확정합니다.')}
+<div class="btns"><a class="btn dark" href="#service-check">ESG 자가진단 해 보기</a></div>`;
+
+/* NEWS */
+const escH=t=>String(t==null?'':t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const DB0={
+ notices:[{id:1,d:'2026.11.13',t:'공지',title:'홈페이지 리뉴얼을 준비하고 있습니다',body:'새 홈페이지를 준비 중입니다. 정식 오픈 시 다시 안내드리겠습니다.'}],
+ schedules:[{id:1,title:'ESG 기초 (예시)',date:'일정 입력',way:'오프라인',st:'모집중'},{id:2,title:'ESG 실무 (예시)',date:'일정 입력',way:'온라인',st:'예정'}]
+};
+let DB;
+try{DB=JSON.parse(localStorage.getItem('geci_demo_db')||'null')}catch(e){DB=null}
+if(!DB||!DB.notices||!DB.schedules)DB=JSON.parse(JSON.stringify(DB0));
+const saveDB=()=>{try{localStorage.setItem('geci_demo_db',JSON.stringify(DB))}catch(e){}};
+const demoNote='<p class="note demo"><b>체험용 화면</b> · 지금은 이 브라우저에만 저장됩니다. 실제 사이트에서는 서버에 저장되어 모든 방문자에게 보입니다.</p>';
+PAGES['news-notice']=()=>`
+<h2>공지사항</h2>
+${DB.notices.length?`<ul class="list panel nlist">${DB.notices.map(n=>`<li><details><summary><span class="d">${escH(n.d)}</span><span><span class="tag">${escH(n.t)}</span>${escH(n.title)}</span></summary><div class="nbody">${escH(n.body||'내용 없음').replace(/\n/g,'<br>')}</div></details></li>`).join('')}</ul>`:'<p>등록된 공지가 없습니다.</p>'}
+${demoNote}
+<div class="btns"><a class="btn dark" href="#admin">관리자 화면 체험하기</a></div>`;
+PAGES['news-blog']=()=>`
+<h2>블로그</h2><p>ESG 소식과 현장 이야기를 네이버 블로그에서 전합니다.</p>
+<div class="btns"><a class="btn dark" href="https://blog.naver.com/globalesgci_" target="_blank" rel="noopener">네이버 블로그 바로가기</a></div>
+${ph('최신 글 3건이 이 자리에 자동으로 보이도록 연동합니다.')}`;
+PAGES['news-youtube']=()=>`
+<h2>유튜브</h2><p>강의와 설명 영상을 모아 보여 줍니다.</p>
+${ph('유튜브 채널 주소를 받으면 대표 영상과 목록을 연결합니다.')}`;
+
+/* CONTACT */
+PAGES['contact-inquiry']=()=>`
+<h2>상담·견적 문의</h2>
+<p>남겨 주신 내용은 담당자에게 메일로 전달됩니다. 급하시면 1599-9895로 전화 주세요.</p>
+<form id="qform" novalidate>
+  <div class="row">
+    <div><label for="f-name">이름</label><input id="f-name" required></div>
+    <div><label for="f-org">회사·기관명</label><input id="f-org"></div>
+  </div>
+  <div class="row">
+    <div><label for="f-tel">연락처</label><input id="f-tel" inputmode="tel" required></div>
+    <div><label for="f-mail">이메일</label><input id="f-mail" type="email"></div>
+  </div>
+  <label for="f-type">문의 분야</label>
+  <select id="f-type"><option>ESG 경영</option><option>공급망 실사</option><option>지속가능경영보고서</option><option>탄소배출평가</option><option>ISO 인증</option><option>교육·민간자격</option><option>기타</option></select>
+  <label for="f-msg">문의 내용</label><textarea id="f-msg"></textarea>
+  <div class="agree"><input type="checkbox" id="f-agree"><label for="f-agree" style="margin:0;font-weight:400">개인정보 수집·이용에 동의합니다. (상담 목적, 상담 완료 후 파기)</label></div>
+  <button class="btn dark" type="submit">문의 보내기</button>
+  <div class="toast" id="toast">시안 화면입니다. 실제 사이트에서는 이 내용이 담당자 메일로 전송됩니다.</div>
+</form>`;
+PAGES['contact-kakao']=()=>`
+<h2>카카오톡 채널</h2><p>카카오톡 채널로 간편하게 문의하세요. 평일 10:00 ~ 18:00 (점심 13:00 ~ 14:30)에 답변드립니다.</p>
+<div class="btns"><a class="btn dark" href="https://center-pf.kakao.com" target="_blank" rel="noopener">카카오톡 채널 열기</a></div>`;
+
+/* ---------- 렌더링 ---------- */
+const gnb=document.getElementById('gnb');
+gnb.innerHTML=MENU.map(m=>`<div class="item"><a class="top" data-m="${m.id}" href="#${m.subs[0][0]}">${m.label}</a><div class="sub">${m.subs.map(s=>`<a href="#${s[0]}">${s[1]}</a>`).join('')}</div></div>`).join('');
+
+const SEO={"home": ["글로벌ESG인증원 | ESG를 말하다, 미래를 그리다", "일반기업과 사회연대경제기업을 위한 ESG 경영 진단, 공급망 실사, 지속가능경영보고서, 탄소배출평가, ISO 인증 컨설팅과 교육. 상담 1599-9895"], "about-greeting": ["인사말·비전", "글로벌ESG인증원의 인사말과 비전을 소개합니다."], "about-history": ["걸어온 길", "글로벌ESG인증원이 걸어온 길과 연혁을 소개합니다."], "about-location": ["오시는 길", "글로벌ESG인증원 위치 안내. 경기도 광명시 오리로 362, 4층. 전화 1599-9895, 평일 10:00~18:00."], "service-esg": ["ESG 경영", "일반기업과 사회연대경제기업을 위한 ESG 경영 진단과 컨설팅 안내."], "service-supply": ["공급망 실사", "공급망 ESG 실사 진행 절차와 컨설팅 안내."], "service-report": ["지속가능경영보고서", "지속가능경영보고서 작성 컨설팅 안내."], "service-carbon": ["탄소배출평가", "기업의 탄소배출 평가 컨설팅 안내."], "service-iso": ["ISO 인증", "ISO 인증 컨설팅 안내."], "service-check": ["ESG 자가진단", "12개 문항으로 우리 기업의 ESG 준비 수준을 스스로 점검해 보세요."], "academy-courses": ["교육과정 안내", "글로벌ESG인증원 ESG 교육과정 안내."], "academy-license": ["민간자격", "글로벌ESG인증원 민간자격 과정 안내."], "academy-schedule": ["교육 일정·신청", "ESG 교육 일정을 확인하고 신청하세요."], "academy-guide": ["ESG 알아보기", "환경·사회·지배구조(ESG)의 기본 개념을 쉽게 알아봅니다."], "news-notice": ["공지사항", "글로벌ESG인증원의 공지사항과 새로운 소식."], "news-blog": ["블로그", "글로벌ESG인증원 공식 블로그 소식."], "news-youtube": ["유튜브", "글로벌ESG인증원 유튜브 영상 소식."], "contact-inquiry": ["상담·견적 문의", "ESG 컨설팅과 교육 상담, 견적 문의. 전화 1599-9895."], "contact-kakao": ["카카오톡 채널", "카카오톡 채널로 글로벌ESG인증원에 간편하게 문의하세요."]};
+function render(){
+  let r=(location.hash||'#home').slice(1);
+  if(!PAGES[r]) r='home';
+  const app=document.getElementById('app');
+  if(r==='home'){
+    app.innerHTML=PAGES.home();
+    document.getElementById('homeNews').innerHTML=DB.notices.slice(0,4).map(n=>`<li><span class="d">${escH(n.d)}</span><span>${escH(n.title)}</span></li>`).join('');
+  }else{
+    const m=MENU.find(x=>x.subs.some(s=>s[0]===r))||(r==='sitemap'?{label:'SITEMAP',subs:[['sitemap','사이트맵']]}:{label:'ADMIN',subs:[['news-notice','공지사항'],['academy-schedule','교육 일정·신청'],['admin','관리자 화면']]});
+    const cur=m.subs.find(s=>s[0]===r);
+    app.innerHTML=`
+    <div class="subhero"><div class="wrap"><div class="crumb">HOME › ${m.label}</div><h1>${cur[1]}</h1></div></div>
+    <div class="wrap subwrap">
+      <aside class="side"><h4>${m.label}</h4>${m.subs.map(s=>`<a href="#${s[0]}" class="${s[0]===r?'on':''}">${s[1]}</a>`).join('')}</aside>
+      <div class="content">${PAGES[r]()}</div>
+    </div>${banner}`;
+  }
+  document.querySelectorAll('nav.gnb .top').forEach(a=>a.classList.toggle('on',!!(r!=='home'&&MENU.find(x=>x.id===a.dataset.m).subs.some(s=>s[0]===r))));
+  gnb.classList.remove('open');
+  document.getElementById('burger').setAttribute('aria-expanded','false');
+  const sv=SEO[r]||SEO.home;
+  const ttl=r==='home'?sv[0]:sv[0]+' | 글로벌ESG인증원';
+  document.title=ttl;
+  [['mdesc',sv[1]],['ogd',sv[1]]].forEach(([i,v])=>{const e=document.getElementById(i);if(e)e.setAttribute('content',v)});
+  const ot=document.getElementById('ogt');if(ot)ot.setAttribute('content',ttl);
+  window.scrollTo(0,0);
+  initCheck();
+  initHero();
+  initAdmin();
+  const f=document.getElementById('qform');
+  if(f) f.addEventListener('submit',e=>{
+    e.preventDefault();
+    const ok=document.getElementById('f-name').value.trim()&&document.getElementById('f-tel').value.trim()&&document.getElementById('f-agree').checked;
+    const t=document.getElementById('toast');
+    t.style.display='block';
+    t.textContent=ok?'시안 화면입니다. 실제 사이트에서는 이 내용이 담당자 메일로 전송됩니다.':'이름, 연락처를 입력하고 개인정보 동의에 체크해 주세요.';
+  });
+}
+window.addEventListener('hashchange',render);
+(function(){const ft=document.querySelector('footer.site'),fl=document.querySelector('.float');
+ if(ft&&fl&&'IntersectionObserver' in window) new IntersectionObserver(e=>fl.classList.toggle('off',e[0].isIntersecting)).observe(ft);})();
+document.getElementById('burger').addEventListener('click',()=>{
+  const o=gnb.classList.toggle('open');
+  document.getElementById('burger').setAttribute('aria-expanded',o);
+});
+render();
+</script>
+</body>
+</html>
